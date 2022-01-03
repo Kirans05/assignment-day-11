@@ -1,0 +1,675 @@
+1).  fixing the bug in the elow snippet
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+
+
+answer
+
+<html lang="en">
+<head>
+<title>Document guvi</title>
+</head>
+<body>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+<div>Guvi Geek Network</div>
+</body>
+</html>
+
+
+
+2).  Try the below one
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+
+
+
+answer
+
+<html lang="en">
+<head>
+<title>Documentguvi</title>
+</head>
+<body>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+<div>Guvi Geek Network</div>
+</body>
+</html>
+
+
+
+3).  Design a contact us form with all fields as required.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+    <style>
+       body{
+           border: 5px solid red;
+           background-color: skyblue;
+           border-spacing: 3px;
+        }
+        label{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <caption>CONTACT US</caption> <br>
+    <em>we love questions and feedback <br>here are ways to contact us</em>
+        <p>Send Us a message</p>
+        <form action="">
+            <label for="">FullName</label>
+            <input type="text" name="" id="">
+        </form> 
+        <br>
+        <form action="">
+            <label for="">email</label>
+            <input type="email" name="" id="">
+        </form>
+        <br>
+        <form action="">
+            <label for="">telephone</label>
+            <input type="number" name="" id="">
+        </form>
+        <br>
+        <form action="">
+            <label for="">organization</label>
+            <input type="text" name="" id="">
+        </form>
+        <br>
+        <form action="">
+            <label for="">description</label>
+            <input type="text" max="500" name="" id="">
+        </form>
+    <script src="kiran.js"></script>
+</body>
+</html>
+
+
+ans
+CONTACT US
+we love questions and feedback
+here are ways to contact us
+Send Us a message
+
+FullName 
+
+email 
+
+telephone 
+
+organization 
+
+description 
+
+
+
+
+4).  Use certain HTML elements to display the following in a HTML page.
+
+
+html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+</head>
+<body>
+    <ul>
+       <li>Programming language</li>
+            <ul>
+                <li>Javascript</li>
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                <li>Python</li>
+                    <ol type="a">
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>    
+                <li>Java</li>
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </ul>
+        <li>Database</li>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Casandra</li>
+        </ul>        
+    </ul> 
+</body>
+</html>
+
+
+
+
+output
+
+Programming language
+Javascript
+Angular
+React
+Vue.js
+Python
+Django Framework
+Flask Framework
+Java
+Spring
+Maven
+Hibernate
+Database
+MySQL
+MongoDB
+Casandra
+
+
+5).  Create an element that helps you to open the https://google.com in separate new tab.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+</head>
+<body>
+    <a href="https://google.com/" target="_blank">create</a>
+</body>
+</html>
+
+
+
+output
+
+create
+
+
+
+6).  In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+
+html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">income</label>
+        salaried:
+        <input type="radio" name="salary" id="salary">
+        own business:
+        <input type="radio" name="salary" id="salary">
+    </form>
+</body>
+</html>
+
+
+output
+
+income salaried:  own business: 
+
+
+7).  Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+</head>
+<body> 
+    <caption>Yes! I want to subscribe to Mag O Zine</caption>
+    <form action="">
+        <label for="">First Name</label>
+        <input type="text" name="" id="">
+    </form>
+    <form action="">
+        <label for="">Last Name</label>
+        <input type="text" name="" id="">
+    </form>
+    <form action="">
+        <label for="">Address</label>
+        <input type="text" name="" id="">
+    </form>
+    <form action="">
+        <label for="">City</label>
+        <input type="text" name="" id="">
+    </form>
+    <form action="">
+        <label for="">State</label>
+        <input type="text" name="" id="">
+    </form>
+    <form action="">
+        <label for="">Zipcode</label>
+        <input type="number" name="" id="">
+    </form>
+    <form action="">
+        <label for="">Subscribe for:</label>
+        <label for="">1year($19.91)</label>
+        <input type="checkbox" name="" id="">
+        <label for="">2year($35.00)</label>
+        <input type="checkbox" name="" id="">
+    </form>
+    <form action="">
+        <label for="">Send me more information about:</label>
+        <br>
+        <label for="">Computer-zine</label>
+        <input type="checkbox" name="" id="">
+        <br>
+        <label for="">Fshing-zine</label>
+        <input type="checkbox" name="" id="">
+        <br>
+        <label for="">Cal-O-Zine</label>
+        <input type="checkbox" name="" id="">
+    </form>
+    <script src="kiran.js"></script>
+</body>
+</html>
+
+
+
+8).  Use the table tag to design given image Click here.
+
+html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="5" >
+        <caption>Health chart</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Eating</th>
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2 hours after eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+output
+
+
+Health chart
+State of Health	Fasting Value	After Eating
+Minimum	Maximum	2 hours after eating
+Healthy	70	100	Less than 140
+Pre-Diabetes	101	126	140 to 200
+Diabetes	More than 126	N/A	More than 200
+
+
+
+9).  Write HTML input tags snippet to show default values for all Form elements.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+    <style>
+        body{
+            border: 3px;
+            background-color: paleturquoise;
+        }
+        label{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">displaying all default values of input tag element</h1>
+   <form action="">
+       <label for="">text box</label>
+       <input type="text"  value="kiran s" name="" id="">
+      </form>
+      <br>
+      <form action="">
+        <label for="">email</label>
+        <input type="email" value="kirans@gmail.com" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">number</label>
+        <input type="number" value="123456789" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">search</label>
+        <input type="search" value="what is tags" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">date</label>
+        <input type="date" value="03-01-2022" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">time</label>
+        <input type="time" value="04:00" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">range</label>
+        <input type="range" min="0" max="5" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">gender</label>
+        male:
+        <input type="radio" name="gender" id="gender">
+        female:
+        <input type="radio" name="gender" id="gender">
+        others:
+        <input type="radio" name="gender" id="gender">
+    </form>
+    <br>
+    <form action="">
+        <label for="">password</label>
+        <input type="password" value="kiran" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">color</label>
+        <input type="color" value="black" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">button</label>
+        <input type="button" value="click here" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">checkbox</label>
+        <input type="checkbox" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">month</label>
+        <input type="month" value="May, 2022" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">week</label>
+        <input type="week" value="Monday" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">datetime-local</label>
+        <input type="datetime-local" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">file</label>
+        <input type="file" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">image</label>
+        <input type="image" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">url</label>
+        <input type="url" value="www.google.com" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">reset</label>
+        <input type="reset" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">tel</label>
+        <input type="tel" value="1234567890" name="" id="">
+    </form>
+    <script src="kiran.js"></script>
+</body>
+</html>
+
+
+
+10).  In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+</head>
+<body>
+    <mark>HTML & CSS is awesome</mark>
+</body>
+</html>
+
+
+
+
+
+11).  Create an HTML page, which should contain all types of input elements.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+    <style>
+        body{
+            border: 3px;
+            background-color: paleturquoise;
+        }
+        label{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">displaying all types of input tag element</h1>
+   <form action="">
+       <label for="">text box</label>
+       <input type="text" name="" id="">
+      </form>
+      <br>
+      <form action="">
+        <label for="">email</label>
+        <input type="email" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">number</label>
+        <input type="number" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">search</label>
+        <input type="search" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">date</label>
+        <input type="date" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">time</label>
+        <input type="time" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">range</label>
+        <input type="range" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">gender</label>
+        male:
+        <input type="radio" name="gender" id="gender">
+        female:
+        <input type="radio" name="gender" id="gender">
+        others:
+        <input type="radio" name="gender" id="gender">
+    </form>
+    <br>
+    <form action="">
+        <label for="">password</label>
+        <input type="password" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">color</label>
+        <input type="color" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">button</label>
+        <input type="button" value="click here" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">checkbox</label>
+        <input type="checkbox" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">month</label>
+        <input type="month" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">week</label>
+        <input type="week" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">datetime-local</label>
+        <input type="datetime-local" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">file</label>
+        <input type="file" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">image</label>
+        <input type="image" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">url</label>
+        <input type="url" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">reset</label>
+        <input type="reset" name="" id="">
+    </form>
+    <br>
+    <form action="">
+        <label for="">tel</label>
+        <input type="tel" name="" id="">
+    </form>
+    <script src="kiran.js"></script>
+</body>
+</html>
